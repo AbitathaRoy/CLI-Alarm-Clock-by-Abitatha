@@ -6,6 +6,7 @@ public class alarm2
     static String note = "Wake Up!";
     static String path;
     static int option;
+    static long snooze;
     static Scanner sc = new Scanner(System.in);
     
     public static boolean current()
@@ -48,6 +49,8 @@ public class alarm2
         alarm2.note = sc.nextLine();
         System.out.println("Enter the path to the audio file you want to set as the alarm tone :");
         path = sc.nextLine();
+        System.out.println("Enter the snooze duration each time you snooze the alarm (in seconds):");
+        snooze = sc.nextInt() * 1000;
         System.out.println();
 
         //datee.setDate();

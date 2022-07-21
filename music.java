@@ -39,7 +39,7 @@ class music
                     
                     case 2 : try {
                         clip.stop();
-                        Thread.sleep(30000);
+                        Thread.sleep(alarm2.snooze);
                         alarmm(alarm2.path);
                     }   
                     catch(Exception e)

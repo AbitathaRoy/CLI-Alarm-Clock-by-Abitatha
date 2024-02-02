@@ -1,0 +1,43 @@
+repo_name: AbitathaRoy/CLI-Alarm-Clock-by-Abitatha
+report_id: 6805148ae7c3745a9d66785faed7c8d6
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-02T11:26:02+00:00'
+requested_by: AbitathaRoy
+provider: github
+branch: main
+detected_tools_count: 3
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/AbitathaRoy/CLI-Alarm-Clock-by-Abitatha
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/AbitathaRoy/CLI-Alarm-Clock-by-Abitatha
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/AbitathaRoy/CLI-Alarm-Clock-by-Abitatha/blob/main/.github/workflows/gradle.yml
+  detection_source: ".github/workflows/gradle.yml"
+  last_updated_by: AbitathaRoy
+  last_updated_on: 2022-07-21 21:04:49.000000000 Z
